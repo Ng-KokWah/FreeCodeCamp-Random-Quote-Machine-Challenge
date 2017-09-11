@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quote Machine</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body onload="changeImage()">
+<div id = "wholepage">
+  <h1>Random Quote Machine</h1>
+  <p id="text">This is a random quote machine click the button below and see the quote appear in the box below! The daily quote changes depending on the day this page is viewed, see it by downloading this page and changing the time on your PC. This contains some of interesting quotes. For more quotes like this go <a href="https://www.brainyquote.com/">here</a>.</p>
+  <h3>Quote of the day</h3>
+  <img src="" id="dailycode" width="1000px" height="300px"></img>
+  <p id = "button" onclick="generateQuote()">Get-A-Quote</p>
+  <div id = "quotebox">
+    <p id="quotes"></p>
+    <p id="cite"></p>
+  </div>
+  <div id = "tweet" onclick="tweet()">
+    <img src = "https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697029-twitter-512.png" width="70px" height="70px" id="twitterimg">
+   <p id="label">Tweet This!</p>
+    </div>
+  <p>&copy; Coded by Ng Kok Wah</p>
+</div>
+</body>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
